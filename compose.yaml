@@ -21,7 +21,8 @@ services:
       retries: 6
 
   backend:
-    build: ./backend
+    build:
+      context: ./backend
     image: xx22221111-img1
     container_name: xx22221111-back
     ports:
@@ -38,7 +39,8 @@ services:
         condition: service_healthy
 
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
     image: xx22221111-img2
     container_name: xx22221111-front
     ports:
