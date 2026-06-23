@@ -16,7 +16,7 @@ Promeni u:
 VALUES ('Demo', 'Student', 'xx22221111', 'dom3 cloud projekat', 'Docker Compose');
 ali mozda bi moglo da se ode i na http://localhost:7000/ nakon sto se pokrenu kontejneri i onda sama uneses svoje podatke sta treba, tako bi bilo jednostavnije, proveriti to
 
-4. nakon što pokreneš kontejnere, napravi fajl xx22221111.txt i onda u terminalu redom pisi ove linije:
+4. nakon što pokreneš kontejnere, napravi fajl xx22221111.txt (najlakse u visual studio code samo pored svih ovih gluposti deni klik new file i ekstenziju sama stavi .txt)i onda u terminalu redom pisi ove linije:
      1. echo "IMAGES" > xx22221111.txt
      2. docker images >> xx22221111.txt
      3. echo "CONTS" >> xx22221111.txt
